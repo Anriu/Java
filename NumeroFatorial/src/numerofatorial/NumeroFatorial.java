@@ -8,10 +8,10 @@ import java.util.Scanner;
 public class NumeroFatorial {
 
     public static void main(String[] args) {
-        // Um número fatorial é representando por ! e é representando como n! = n * (n-1), até que o n assuma o valor de 1, como por exemplo 4! = 4 * 3 * 2 * 1
+        // Um número fatorial é representando por ! onde n! = n * (n-1), até que o n assuma o valor de 1, como por exemplo 4! = 4 * 3 * 2 * 1
         // Sendo N diferente de 0 e positivo
         int numero;
-        int fator =1;
+        int fator = 1;
         
         Scanner sc = new Scanner(System.in);
         numero = sc.nextInt();
